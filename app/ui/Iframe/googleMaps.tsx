@@ -1,11 +1,4 @@
-import {
-  BanknotesIcon,
-  ClockIcon,
-  UserGroupIcon,
-  InboxIcon,
-} from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
-import { fetchCardData } from '@/app/lib/data';
 
 export function GoogleMaps({
   title,
@@ -14,8 +7,6 @@ export function GoogleMaps({
   title: string;
   value: number | string;
 }) {
-  
-
   return (
     <div className="rounded-xl p-2 shadow-sm bg-black">
       <div className="flex p-4">
